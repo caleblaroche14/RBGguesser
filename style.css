@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    overflow: hidden;
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    margin: 0;
+    font-family: 'Concert One';
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    width: 800px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+#headertext{
+    color: white;
+    font-size: 3rem;
+}
+
+#RGBtext{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#scoretext{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#percenttext{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#resulttext{
+    color: white;
+    font-size: 1rem;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+#colorcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+    width: 800px;
+    height: 400px;
+    border-radius: 0 0 10px 10px;
+}
+
+.colorblocks{
+    width: 150px;
+    height: 150px;
+    margin: 0px 30px 0px 30px;
+    background-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+#sp{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
